@@ -1,0 +1,12 @@
+@use "../../styles/mixins" as *;
+.calendar-header__chevron-btn {
+  @include flexbox(row, center, center);
+  cursor: pointer;
+  width: 44px;
+  aspect-ratio: 1/1;
+  transition: 0.3s;
+  border-radius: 6px;
+  &:hover {
+    background-color: #e6e6e6;
+  }
+}
