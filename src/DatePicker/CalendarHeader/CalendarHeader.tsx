@@ -25,6 +25,7 @@ const CalendarHeader = ({
       <div
         onClick={() => handleMonthChange("prev")}
         className="calendar-header__chevron-btn"
+        data-testid="prev-month-btn"
       >
         <ChevronLeft />
       </div>
@@ -32,6 +33,7 @@ const CalendarHeader = ({
       <div
         onClick={() => handleMonthChange("next")}
         className="calendar-header__chevron-btn"
+        data-testid="next-month-btn"
       >
         <ChevronRight />
       </div>

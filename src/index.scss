@@ -39,3 +39,33 @@ body {
   background-color: #f2f6dd;
   min-height: 100svh;
 }
+
+.title-bg {
+  background: radial-gradient(circle, #003a1e 30%, #f2f6dd 100%);
+}
+
+.link-btn {
+  @extend %btn;
+}
+
+.home-page-btn {
+  @extend %btn;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+%btn {
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 99px;
+  background-color: #003a1e;
+  color: #f2f6dd;
+  padding: 10px 20px;
+  transition: 0.3s;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+  }
+}
