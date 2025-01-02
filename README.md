@@ -1,50 +1,20 @@
-# React + TypeScript + Vite
+# 謝京澔, HesihChingHao Test (React + TypeScript + Vite)
+所有測驗內容皆包含在專案中。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 專案基本指令
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+git clone https://github.com/hsiehchinghao/cathay-react-test.git
+cd cathay-react-test
+npm install
+npm run dev
 ```
+---
+### 基本測試 (vitest)
+```
+npm run test
+```
+<img width="1419" alt="圖片" src="https://github.com/user-attachments/assets/fa66cb4f-10a7-447b-8d51-369495e9a33f" />
+<img width="1412" alt="圖片" src="https://github.com/user-attachments/assets/cff996fb-92c4-4748-92ab-405788fc6648" />
+<img width="1404" alt="圖片" src="https://github.com/user-attachments/assets/ffb818fc-aada-47e8-bf72-26713bef50f8" />
+
+
